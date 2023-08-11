@@ -1,5 +1,5 @@
 <?php
-require_once("../backend/conn.php");
+require_once("conn.php");
 
 if (isset($_GET['Del'])){
     $id = $_GET['Del'];
